@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>Weather dashboard</title>
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Arial"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="nav-bar">
+        Weather Dashboard
+      </div>
+    </header>
+    <div class="container">
+      <div class="cities">
+        <label for="city">Search City:</label>
+        <div class="input-area">
+          <input name="city" placeholder="city" id="city" />
+          <span>&#x1F50D;</span>
+        </div>
+      </div>
+      <div class="weather">
+        <div class="one-day-weather">
+          <div class="city-date"></div>
+          <div class="weather-details">
+            <div class="temperature"></div>
+            <div class="icon"></div>
+            <div class="humidity"></div>
+            <div class="wind-speed"></div>
+            <span class="uv-index"></span>
+          </div>
+        </div>
+        <div class="five-day-weather">
+          <div></div>
+          <div class="weather-cards"></div>
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/moment"></script>
+    <script src="weather.js"></script>
+  </body>
+</html>

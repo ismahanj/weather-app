@@ -1,20 +1,21 @@
-body{
- /* background:url ("https://images.unsplash.com/photo-1531147646552-1eec68116469?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"); */
-
- background-color: aqua;
- font-family:'Poiret One', cursive;;
- 
-
-} 
-.header {
-    text-align: center; 
-    font-weight: bold;
-    margin-bottom: 100px;
-    margin-top:40px;
-    
-
-}
-.search-box {
+body {
+    background-color: aqua;
+    font-family:'Poiret One', cursive;;
+  }
+  
+  .nav-bar {
+    background:  #efefef;
+    color: black;
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bolder;
+    width: 100%;
+    position: auto;
+  }
+  
+  
+  .cities {
     position: relative;
     top: 10%; 
     left: 40%; 
@@ -22,25 +23,65 @@ body{
     border-radius: 40px;
     padding: 40px;
     width:600px ;
+   
+  }
+  
+  .one-day-weather {
+    background:  #efefef;
+    border: 1px gray solid;
+    border-radius: 5px;
+    height: 300px;
+    width: 400px; 
+    display: center;
+    flex-direction: column;
     
-
-}
-
-.data {
-    margin-left: 5vw ;
-    display: flex; 
-    flex-direction: row;
-    justify-content: space-around;
-    
-}
-
-.box {
-    
-    background: beige;
-    border: 3px solid black;
-    border-radius: 25px;
-    padding: 15px 15px;
-    height: 150px;
-    width: 150px;  
-
-}
+  }
+  
+  .weather-details {
+    padding: 10px;
+  }
+  
+  .temperature,
+  .humidity,
+  .wind-speed,
+  .uv-index {
+    margin: 20px;
+  }
+  
+  .uv-index {
+    padding: 5px 20px 5px 5px;
+    border-radius: 3px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .city-date {
+    border: 1px solid gray;
+    background: #efefef;
+    /* padding: 10px; */
+    font-weight: bold;
+    justify-content: center;
+    align-items: center 
+  }
+  
+  span {
+    cursor: pointer;
+  }
+  
+  .five-day-weather {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .weather-cards {
+    display: flex;
+  }
+  
+  .daily-weather {
+    border: 1px gray solid;
+    margin: 20px 10px 10px;
+    padding: 10px;
+    width: 200px;
+    background: #efefef;
+    border-radius: 3px;
+  }

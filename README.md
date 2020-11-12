@@ -4,8 +4,8 @@
     The Weather App is a website where the user is able to enter their location or desired city and the program will gather the weather information for that location from the weather api. 
 
 # Table of contents 
-    - weather.j 
-    -weather.html
+    - weather.js 
+    -index.html
     -style.css
 
 # Uses 
